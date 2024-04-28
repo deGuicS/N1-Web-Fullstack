@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-line-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    background-color: #F8C053;
+}
+
+.header-line-items li{
+    list-style: none;
+    text-transform: uppercase;  
+}
+
+.header-line-items a{
+    text-decoration: none;
+    color: #4871E4;
+    font-size: 10px;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 25px;
+    background-color: #fff;
+}
+
+.navbar-items{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-items li{
+    margin-top: 15px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.navbar-items a{
+    text-decoration: none;
+    color: #4871E4;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.navbar-logo{
+    width: 60px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+.main-container{
+    margin-top: 50px;
+}
+
+.sobre-img{
+    width: 100%;
+    height: 700px
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text{
+    font-size: 25px;
+    text-align: justify;
+    color: #424141;
+    width: 70%;
+    padding: 15px;
+}
+
+.inner-text{
+    font-size: 26px;
+    text-align: center;
+    color: #424141;
+    width: 70%;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.nomeimg{
+    width: 30px;
+    height: auto;
+    opacity: 1;
+}
+
+.footer-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #F8C053;
+    padding-top: 20px;
+    padding-bottom: 0;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.9);
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column h5{
+    font-size: 25px;
+    color: #313131;
+    font-weight: bold;
+}
+
+.footer-column a{
+    text-decoration: none;
+    color: #313131;
+    padding-left: 20px;
+}
+
+.footer-items li{
+    list-style: none;
+}
+
+.footer-logo{
+    width: 150px;
+    margin-top: 0;
+}

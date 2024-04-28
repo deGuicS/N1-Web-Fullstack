@@ -65,13 +65,17 @@
     position: absolute;
 }
 
+.carrossel{
+    margin-bottom: 0;
+}
+
 .carousel-inner{
     margin-top: 50px;
     padding-bottom: 0;
 }
 
 .slider-img{
-    height: 800px;
+    /* height: 800px; */
 }
 
 .main-string{
@@ -175,6 +179,9 @@
         top: 30px;
         width: 40px;
         left: 0px;
+    }
+    .navbar-items a{
+        font-size: 12px;
     }
     .footer-logo{
         margin-right: 50px;

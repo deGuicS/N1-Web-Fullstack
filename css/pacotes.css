@@ -1,18 +1,16 @@
-/* Página feita por Gustavo Henrique Santos Araujo */
-
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Helvetica;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     margin: 0px;
     padding: 0px;
 }
 
-.header-line-items{
+.header-line-items {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -20,59 +18,55 @@
     background-color: #F8C053;
 }
 
-.header-line-items li{
+.header-line-items li {
     list-style: none;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 
-.header-line-items a{
+.header-line-items a {
     text-decoration: none;
     color: #4871E4;
     font-size: 10px;
 }
 
-.navbar-container{
+.navbar-container {
     width: 100%;
-    height: 25px;
     background-color: #fff;
 }
 
-.navbar-items{
+.navbar-items {
     width: 100%;
-    height: 25px;
     line-height: 25px;
-    margin-left: auto;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap; 
 }
 
-.navbar-items li{
+.navbar-items li {
     margin-top: 15px;
     list-style: none;
     text-transform: uppercase;
 }
 
-.navbar-items a{
+.navbar-items a {
     text-decoration: none;
     color: #4871E4;
     font-size: 18px;
     transition: 0.5s;
 }
 
-.navbar-logo{
+.navbar-logo {
     width: 60px;
     top: 20px;
     left: 20px;
     position: absolute;
 }
 
-
-.main-container{
-    margin-top: 50px
+.main-container {
+    margin-top: 50px;
 }
 
-
-section{
+section {
     min-height: 47vh;
     display: flex;
     flex-direction: column;
@@ -80,24 +74,23 @@ section{
     gap: 1rem;
 }
 
-.romav .items{
+.romav .items {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 }
 
-
-.item-description1 p{
+.item-description1 p {
     font-size: 18px;
     margin: 0;
 }
 
-.item-description1 span{
+.item-description1 span {
     font-size: 28px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #53F859;
     width: 296px;
     height: 90px;
@@ -131,7 +124,7 @@ section{
     width: 80%;
 }
 
-.footer-container{
+.footer-container {
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
@@ -147,25 +140,42 @@ section{
     padding: 0;
 }
 
-.footer-column h5{
+.footer-column h5 {
     font-size: 16px;
     color: #313131;
     font-weight: bold;
 }
 
-.footer-column a{
+.footer-column a {
     text-decoration: none;
     color: #313131;
     padding-left: 20px;
     font-size: 12px;
 }
 
-.footer-items li{
+.footer-items li {
     list-style: none;
 }
 
-.footer-logo{
+.footer-logo {
     width: 150px;
+}
+
+@media only screen and (max-width: 850px) {
+    .romav .items {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .romav .items .image,
+    .romav .items .item-description1 {
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    .btn-primary {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 425px) {

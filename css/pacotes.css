@@ -179,6 +179,9 @@ section {
 }
 
 @media (max-width: 425px) {
+    body{
+        width: fit-content;
+    }
     .navbar-logo{
         top: 30px;
         width: 40px;
@@ -203,10 +206,16 @@ section {
 }
 
 @media (max-width: 320px) {
+    body{
+        width: fit-content;
+    }
     .navbar-logo{
         top: 30px;
         width: 40px;
         left: 0px;
+    }
+    .navbar-items a{
+        font-size: 12px;
     }
     .footer-logo{
         margin-right: 50px;
